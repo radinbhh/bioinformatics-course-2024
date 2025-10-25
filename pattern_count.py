@@ -7,7 +7,6 @@ def pattern_count(string, pattern):
         return count
 
 
-
 def frequent_words(string, k):
     frequent_patterns = []
     count = []
