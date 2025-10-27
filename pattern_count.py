@@ -25,4 +25,6 @@ def frequent_words(string, k):
     return frequent_patterns
 string = str(input("Enter the genome: "))
 k = int(input("Enter k: "))
-print(frequent_words(string, k))
+array = frequent_words(string,k)
+for i in range(len(array)):
+    print(array[i])
